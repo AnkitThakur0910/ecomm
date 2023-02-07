@@ -1,0 +1,359 @@
+.popup :hover{
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.electronics
+{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/7593e7b6640822c1.jpg?q=90');
+}
+
+.food{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
+}
+
+.newyear{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-reco/278/278/images/Reco_NewYear_GCD_f0ece8_DT.jpg?q=90');
+}
+
+.winter{
+    background-image: url('https://rukminim1.flixcart.com/reco/278/278/images/Reco_winter_DT_2fcaff.jpg?q=90');
+}
+
+.sports{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/b84f1c22cce1a6a3.jpg?q=90');
+}
+
+.home{
+    background-image: url('https://rukminim1.flixcart.com/fk-p-flap/278/278/image/898b527fdf29b17a.jpg?q=90');
+}
+
+.desc{
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.pickyimage{
+    background-image: url('../images/picky.png');
+}
+
+.poppp{
+    z-index: 10;
+}
+
+/* .elec{
+    background-image: url('../images/laptop-2838921.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    overflow-y: hidden;
+    background-position: top;
+} */
+
+
+.box{
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+}
+
+.blue{
+    background-image: url("../images/fabrizio-conti-kXVogATbFgA-unsplash.jpg");
+}
+
+a{
+    text-decoration: none;
+}
+.shide::-webkit-scrollbar {
+    display: none;
+  }
+
+.shopping{
+    
+    background-color: #13161f;
+}
+
+.picky-login{
+    background-image: url('../images/picky2.png');
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+   
+
+}
+
+::placeholder{
+    color: white;
+}
+
+@media screen and (max-width : 650px){
+    .login-vertical{
+        flex-direction: column;
+    }
+   
+}
+
+.elec-image{
+    background-image: url('../images/daniel-romero-TpXoTb1uR5A-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.nav{
+    background-image: url('../images/akt21____watches_and_mobile_phone_redblue_and_white_images_3f4a3793-88eb-4c6b-82fc-280a77b2d71e.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.nav-container{
+    position: absolute;
+ 
+}
+
+.logo-text{
+    margin-top: 3%;
+}
+
+
+
+.pickytex{
+    /* background : linear-gradient(60deg, #E8307D, red);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+    color: white;
+}
+
+.picky-search{
+    width : 400px;
+    padding-top : 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border:none;
+    border-radius: 20px;
+}
+
+::placeholder{
+  color: lightgray;
+  font-family: 'murecho',sans-serif;
+}
+.login-button{
+    width : 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+   margin-top: 7%;
+   border-radius: 20px;
+   font-size: 16px;
+   font-family: 'Lato',sans-serif;
+    border: none;
+    background: linear-gradient(90deg,#2334CF,black);
+    color: #F5F5F5;
+}
+
+.about1{
+    background-image: url("../images/akt21____picky_logo_pinkred_and_blue_4081eeac-f8aa-441e-b33c-f583061cc258.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+.about2{
+
+}
+
+.deals-overflow{
+    overflow: auto;
+}
+.deals-overflow::-webkit-scrollbar{
+    display: none;
+}
+
+@media screen and (max-width: 600px){
+    
+    .nav-items{
+      padding : 2px
+    }
+    .logo-text{
+      margin-top: 5%;
+  }
+  .picky-search{
+    width : 200px;
+    
+  }
+  }
+
+  .mobile1{
+    background-image: url("../images/david-svihovec-Gd6hKygUGi8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .mobile2{
+    background-image: url("https://source.unsplash.com/83ypHTv6J2M");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .mobile3{
+    background-image: url("https://source.unsplash.com/8l9VxXI28tY");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .mobile4{
+    background-image: url("https://source.unsplash.com/Uae7ouMw91A");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .mobile5{
+    background-image: url("https://source.unsplash.com/msNCux-u3lo");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .mobile6{
+    background-image: url("https://source.unsplash.com/ZwKCWVFdrcs");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .slider{
+    opacity: 100%;
+    
+  }
+
+  .dig
+  {
+    opacity: 0;
+  }
+ 
+  .item1{
+    background-image: url("https://rukminim1.flixcart.com/image/612/612/jvtujrk0/sweater/r/p/x/m-6998137-roadster-original-imafgmrtxe2cqxxx.jpeg?q=70");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .item2{
+    background-image: url("https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/jeans-2-1615561459.jpg?crop=0.486xw:0.971xh;0.258xw,0.0160xh&resize=640:*");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .item3
+  {
+    background-image: url("https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/2503507/2018/4/23/11524479488419-Roadster-Men-Shirts-4161524479488253-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .item4
+  {
+    background-image: url("https://m.media-amazon.com/images/I/71MdmrmFvuL._UL1500_.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+  }
+  .item5
+  {background-image: url("https://contents.mediadecathlon.com/p1786958/2b0a8a97ea3b1154f2f3734009451fe2/p1786958.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+
+  }
+  .item6{
+    background-image: url("https://5.imimg.com/data5/QP/RJ/MY-4283662/fancy-baby-sweater-500x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s1{
+    background-image: url("https://5.imimg.com/data5/QP/RJ/MY-4283662/fancy-baby-sweater-500x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s2{
+    background-image: url("https://5.imimg.com/data5/QP/RJ/MY-4283662/fancy-baby-sweater-500x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s3{
+    background-image: url("https://5.imimg.com/data5/QP/RJ/MY-4283662/fancy-baby-sweater-500x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s4{
+    background-image: url("https://5.imimg.com/data5/QP/RJ/MY-4283662/fancy-baby-sweater-500x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s5{
+    background-image: url("https://5.imimg.com/data5/QP/RJ/MY-4283662/fancy-baby-sweater-500x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .s6{
+    background-image: url("https://5.imimg.com/data5/QP/RJ/MY-4283662/fancy-baby-sweater-500x500.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .elec-svg{
+    background-image: url("../images/4861083.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-size: cover;
+  }
+
+  .sports-svg{
+    background-image: url("../images/5578341.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-size: cover;
+  }
+  .foods-svg{
+    background-image: url("../images/m8jv_cqpj_201128.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-size: cover;
+  }
+  .clothes-svg{
+    background-image: url("../images/27Z_2103.w028.n002.10B.p30.10.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-size: cover;
+  }
+  .pic1{
+    background-image: url("../images/david-svihovec-Gd6hKygUGi8-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  button, i{
+    cursor: pointer;
+  }
+
+  
+  
